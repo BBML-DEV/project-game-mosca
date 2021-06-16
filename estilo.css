@@ -1,0 +1,55 @@
+/*criando o fundo do jogo*/
+body{
+	background: url('imagens/bg.jpg') no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+/*efetua a mudança do tamanho das moscas*/
+.mosca1 {
+	width: 50px;
+	height: 50px;
+}
+
+.mosca2{
+	width: 100px;
+	height: 100px;
+}
+
+.mosca3{
+	width: 80px;
+	height: 80px;
+}
+/*Efetua a mudança da direção da mosca*/
+
+.ladoA{
+	transform: scaleX(1);
+}
+
+.ladoB{
+	transform: scaleX(-1);
+}
+
+/*Painel controlador de vida*/
+.painel {
+	position: absolute;
+	width: 190px;
+	padding: 10px;
+	left: 0px;
+	bottom: 0px;
+	border-top:solid 1px #fff;
+	background-color: #fff;
+	opacity: 0.7
+ }
+
+.vida {
+	float: left;	
+ }
+
+.tempo {
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+ }
